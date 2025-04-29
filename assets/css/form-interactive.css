@@ -42,6 +42,9 @@ form {
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+form:focus-within {
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+  }
 
 .form label {
     display: block;
@@ -85,7 +88,9 @@ input[type="checkbox"] {
     transform: scale(1.1);
     cursor: pointer;
 }
-
+input:invalid:not(:placeholder-shown) {
+    border: 2px solid rgb(249, 29, 29);
+}
 fieldset {
     border: 1px solid #ddd;
     border-radius: 8px;

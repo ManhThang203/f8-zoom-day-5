@@ -49,11 +49,8 @@ ol, ul {
 .pricing-table .pricing-card:nth-child(2) {
     height: 367px;
     border: 2px solid #50dce3;
-} 
-.pricing-table .pricing-card:nth-child(2):hover {
-    transform: none;
-    transition: none;
-}
+    transition: transform 0.4s linear;
+} s
 .pricing-table .pricing-card:last-child {
     height: 367px;
 } 
